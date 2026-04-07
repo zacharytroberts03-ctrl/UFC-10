@@ -1,13 +1,10 @@
-name: Daily Analysis Refresh
+name: Mon/Sat Analysis Refresh
 
 on:
   schedule:
-    # 15:00 UTC = 11:00 America/New_York during EDT (Mar–Nov)
-    # During EST (Nov–Mar) this fires at 10:00 ET — closest single-cron option.
-    - cron: '0 15 * * *'
-    # Monday 09:00 UTC = 5:00 America/New_York during EDT — picks up the new card
-    # for the upcoming week. (During EST this fires at 4:00 ET.)
-    - cron: '0 9 * * 1'
+    # 15:00 UTC = 11:00 America/New_York during EDT.
+    # During EST (Nov–Mar) this fires at 10 AM ET — closest single-cron option.
+    - cron: '0 15 * * 1,6'   # Monday + Saturday only
   workflow_dispatch:
 
 jobs:

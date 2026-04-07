@@ -89,6 +89,13 @@ for key in ["do_analysis", "f1", "f2", "total_stake", "cached_result", "pending_
 
 # -- Helpers -------------------------------------------------------------------
 
+def in_maintenance_window() -> bool:
+    """True between 11:00 and 12:00 America/New_York on Monday or Saturday."""
+    from zoneinfo import ZoneInfo
+    now = datetime.datetime.now(ZoneInfo("America/New_York"))
+    return now.weekday() in (0, 5) and now.hour == 11
+
+
 def get_day_key() -> tuple:
     """Returns (year, month, day) -- cache key so card refreshes each day."""
     today = datetime.date.today()
@@ -729,6 +736,17 @@ def run_analysis_pipeline(f1_name: str, f2_name: str, total_stake: float):
 
 
 # -- View router: card grid OR full analysis ----------------------------------
+
+if in_maintenance_window():
+    st.markdown(
+        '<div class="pending-card">'
+        '<div class="pending-title">🛠 Refreshing Analyses</div>'
+        '<div><strong>The site is generating fresh AI analyses for the upcoming card.</strong></div>'
+        '<div style="margin-top:8px;">We\'ll be back at 12:00 PM ET. Check back shortly.</div>'
+        '</div>',
+        unsafe_allow_html=True,
+    )
+    st.stop()
 
 if st.session_state.do_analysis:
     # ---- Analysis view ---- (scroll to top so it feels like a new page)
