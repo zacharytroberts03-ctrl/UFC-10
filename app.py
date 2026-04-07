@@ -740,6 +740,7 @@ if st.session_state.do_analysis:
     if back_to_card_button():
         st.session_state.do_analysis = False
         st.session_state.cached_result = None
+        st.session_state.pending_msg = None
         st.rerun()
 
     f1_name = st.session_state.f1
@@ -752,6 +753,16 @@ if st.session_state.do_analysis:
 
     if st.session_state.cached_result is not None:
         render_cached_analysis(st.session_state.cached_result)
+    elif st.session_state.pending_msg:
+        st.markdown(
+            f'<div class="pending-card">'
+            f'<div class="pending-title">Analysis Pending</div>'
+            f"<div><strong>{st.session_state.pending_msg}</strong></div>"
+            f"<div style='margin-top:8px;'>The daily 11 AM ET refresh hasn't covered "
+            f"this fight yet. Check back later.</div>"
+            f"</div>",
+            unsafe_allow_html=True,
+        )
     else:
         # Manual Search escape hatch — runs live
         run_analysis_pipeline(f1_name, f2_name, total_stake)
@@ -803,20 +814,14 @@ else:
                             st.session_state.do_analysis = True
                             st.rerun()
                         else:
+                            st.session_state.f1 = chosen["fighter1"]
+                            st.session_state.f2 = chosen["fighter2"]
+                            st.session_state.cached_result = None
                             st.session_state.pending_msg = (
                                 f"{chosen['fighter1']} vs {chosen['fighter2']}"
                             )
-
-                if st.session_state.pending_msg:
-                    st.markdown(
-                        f'<div class="pending-card">'
-                        f'<div class="pending-title">Analysis Pending</div>'
-                        f"<div><strong>{st.session_state.pending_msg}</strong></div>"
-                        f"<div style='margin-top:8px;'>The daily 11 AM ET refresh hasn't covered "
-                        f"this fight yet. Check back later.</div>"
-                        f"</div>",
-                        unsafe_allow_html=True,
-                    )
+                            st.session_state.do_analysis = True
+                            st.rerun()
 
     with tab2:
         col1, col2 = st.columns(2)
