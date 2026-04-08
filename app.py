@@ -108,15 +108,31 @@ def load_card_for_day(day_key: tuple) -> dict:
     return scrape_upcoming_card()
 
 
+_LOCAL_PHOTO_INDEX: dict[str, str] | None = None
+
+
+def _local_photo_index() -> dict[str, str]:
+    """Build (once) a case-insensitive map of fighter_photos/ filenames."""
+    global _LOCAL_PHOTO_INDEX
+    if _LOCAL_PHOTO_INDEX is None:
+        local_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fighter_photos")
+        index: dict[str, str] = {}
+        if os.path.isdir(local_dir):
+            for fname in os.listdir(local_dir):
+                stem, ext = os.path.splitext(fname)
+                if ext.lower() in (".jpg", ".jpeg", ".png", ".webp"):
+                    index[stem.lower()] = os.path.join(local_dir, fname)
+        _LOCAL_PHOTO_INDEX = index
+    return _LOCAL_PHOTO_INDEX
+
+
 def get_fighter_image(name: str) -> str | None:
     """Return a fighter photo. Checks local fighter_photos/ first, then ESPN, then Wikipedia."""
-    # 0. Local fighter_photos folder (firstname_lastname.{jpg,jpeg,png,webp})
-    slug = name.lower().replace(" ", "_")
-    local_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fighter_photos")
-    for ext in ("jpg", "jpeg", "png", "webp"):
-        candidate = os.path.join(local_dir, f"{slug}.{ext}")
-        if os.path.isfile(candidate):
-            return candidate
+    # 0. Local fighter_photos folder, case-insensitive lookup
+    slug = name.replace(" ", "_").lower()
+    hit = _local_photo_index().get(slug)
+    if hit:
+        return hit
 
     headers = {"User-Agent": "UFC-Fight-Night/5.0"}
 
