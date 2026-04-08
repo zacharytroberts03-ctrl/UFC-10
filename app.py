@@ -467,13 +467,32 @@ def show_fight_preview(fight: dict, fight_index: int):
 
 # -- Render cached analysis (no live pipeline) --------------------------------
 
+@st.cache_data(show_spinner=False)
+def _live_odds_for_fight(f1: str, f2: str, generated_at: str) -> dict | None:
+    """Fetch live odds, cached per fight + analysis generation timestamp.
+
+    The `generated_at` arg is part of the cache key so this naturally invalidates
+    whenever the AI analysis cache is regenerated, matching the user's requested cadence.
+    """
+    try:
+        return find_fight_odds(f1, f2)
+    except Exception:
+        return None
+
+
 def render_cached_analysis(result: dict) -> None:
     """Render an analysis from a cached result dict (output of analysis_runner.run_analysis)."""
     f1_data = result["f1_data"]
     f2_data = result["f2_data"]
-    odds_data = result.get("odds_data")
     hedge_summary = result.get("hedge_summary")
     analysis_sections = result.get("analysis_sections", {})
+
+    # Live odds (refreshed on the same cadence as the analysis cache)
+    odds_data = _live_odds_for_fight(
+        f1_data["name"], f2_data["name"], str(result.get("generated_at", ""))
+    )
+    if odds_data is None:
+        odds_data = result.get("odds_data")
 
     f1_img = get_fighter_image(f1_data["name"])
     f2_img = get_fighter_image(f2_data["name"])
