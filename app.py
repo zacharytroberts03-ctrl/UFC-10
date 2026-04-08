@@ -109,7 +109,15 @@ def load_card_for_day(day_key: tuple) -> dict:
 
 
 def get_fighter_image(name: str) -> str | None:
-    """Fetch a fighter photo. Tries ESPN first, falls back to Wikipedia."""
+    """Return a fighter photo. Checks local fighter_photos/ first, then ESPN, then Wikipedia."""
+    # 0. Local fighter_photos folder (firstname_lastname.{jpg,jpeg,png,webp})
+    slug = name.lower().replace(" ", "_")
+    local_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fighter_photos")
+    for ext in ("jpg", "jpeg", "png", "webp"):
+        candidate = os.path.join(local_dir, f"{slug}.{ext}")
+        if os.path.isfile(candidate):
+            return candidate
+
     headers = {"User-Agent": "UFC-Fight-Night/5.0"}
 
     # 1. ESPN search API
@@ -322,9 +330,6 @@ def show_fighter_card(
     g = f["grappling"]
     is_debut = f.get("ufc_debut", False)
     debut_source = f.get("debut_source", "Tapology")
-
-    if image_url:
-        st.image(image_url, width=200)
 
     if is_debut:
         st.markdown(

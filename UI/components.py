@@ -4,7 +4,23 @@ All functions render HTML via st.markdown(..., unsafe_allow_html=True).
 Requires theme.get_css() to be injected first for styling.
 """
 
+import base64
+import os
+
 import streamlit as st
+
+
+def _img_src(url: str) -> str:
+    """Return a usable <img src> value. Local file paths get base64-embedded."""
+    if url.startswith("http://") or url.startswith("https://") or url.startswith("data:"):
+        return url
+    if os.path.isfile(url):
+        ext = os.path.splitext(url)[1].lower().lstrip(".")
+        mime = "jpeg" if ext == "jpg" else ext
+        with open(url, "rb") as f:
+            encoded = base64.b64encode(f.read()).decode("ascii")
+        return f"data:image/{mime};base64,{encoded}"
+    return url
 
 
 def _format_odds(odds: int | None) -> str:
@@ -43,13 +59,13 @@ def fighter_vs_header(
 ) -> None:
     """Render the fighter VS block with photos and moneyline odds."""
     f1_img = (
-        f'<img src="{f1_img_url}" style="width:160px;height:160px;'
+        f'<img src="{_img_src(f1_img_url)}" style="width:160px;height:160px;'
         f'object-fit:cover;border-radius:50%;margin-bottom:12px;" />'
         if f1_img_url
         else _initials_avatar(f1_name)
     )
     f2_img = (
-        f'<img src="{f2_img_url}" style="width:160px;height:160px;'
+        f'<img src="{_img_src(f2_img_url)}" style="width:160px;height:160px;'
         f'object-fit:cover;border-radius:50%;margin-bottom:12px;" />'
         if f2_img_url
         else _initials_avatar(f2_name)
@@ -59,7 +75,7 @@ def fighter_vs_header(
     <div class="fighter-vs-block">
         <div class="fighter-slot">
             {f1_img}
-            <div style="font-size:1.2rem;font-weight:700;color:#f0f0f0;margin-bottom:8px;">
+            <div style="font-size:1.2rem;font-weight:700;color:#000000;margin-bottom:8px;">
                 {f1_name}
             </div>
             <span class="moneyline-pill {_odds_class(f1_odds)}">
@@ -69,7 +85,7 @@ def fighter_vs_header(
         <div class="vs-divider">VS</div>
         <div class="fighter-slot">
             {f2_img}
-            <div style="font-size:1.2rem;font-weight:700;color:#f0f0f0;margin-bottom:8px;">
+            <div style="font-size:1.2rem;font-weight:700;color:#000000;margin-bottom:8px;">
                 {f2_name}
             </div>
             <span class="moneyline-pill {_odds_class(f2_odds)}">
