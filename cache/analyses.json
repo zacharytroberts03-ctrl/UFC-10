@@ -1,6 +1,6 @@
 {
   "event_key": "ufc-327:-prochazka-vs.-ulberg__April 11, 2026",
-  "generated_at": "2026-04-07T22:42:59.474568+00:00",
+  "generated_at": "2026-04-11T16:04:41.211793+00:00",
   "fights": {
     "carlos-ulberg__jiri-prochazka": {
       "f1_name": "Jiri Prochazka",
@@ -4122,6 +4122,194 @@
         }
       },
       "generated_at": "2026-04-07T22:42:59.474553+00:00"
+    },
+    "aaron-pico__patricio-pitbull": {
+      "f1_name": "Patricio Pitbull",
+      "f2_name": "Aaron Pico",
+      "f1_data": {
+        "name": "Patricio Pitbull",
+        "profile_url": "http://www.ufcstats.com/fighter-details/98a58c26c5b1ed17",
+        "height": "5' 6\"",
+        "weight": "145 lbs.",
+        "reach": "67\"",
+        "stance": "Orthodox",
+        "dob": "Jul 07, 1987",
+        "team": "N/A \u2014 not listed on ufcstats.com",
+        "record": {
+          "wins": "37",
+          "losses": "8",
+          "draws": "0"
+        },
+        "win_methods": {
+          "ko": "0",
+          "sub": "0",
+          "dec": "1",
+          "note": "(last 2 fights)"
+        },
+        "striking": {
+          "slpm": "2.68",
+          "str_acc": "43%",
+          "sapm": "4.23",
+          "str_def": "57%"
+        },
+        "grappling": {
+          "td_avg": "1.49",
+          "td_acc": "33%",
+          "td_def": "88%",
+          "sub_avg": "0.6"
+        },
+        "fight_history": [
+          {
+            "result": "WIN",
+            "opponent": "Dan Ige",
+            "method": "U-DEC",
+            "round": "3",
+            "time": "5:00",
+            "date": "Jul. 19, 2025",
+            "fight_url": "http://www.ufcstats.com/fight-details/acc961fd5cf5c62e"
+          },
+          {
+            "result": "LOSS",
+            "opponent": "Yair Rodriguez",
+            "method": "U-DEC",
+            "round": "3",
+            "time": "5:00",
+            "date": "Apr. 12, 2025",
+            "fight_url": "http://www.ufcstats.com/fight-details/d3be5a4e0ec273e2"
+          }
+        ],
+        "last_3_splits": [
+          {
+            "duration_min": 15.0,
+            "sig_landed": 7,
+            "sig_attempted": 13,
+            "slpm": 0.47,
+            "str_acc_pct": 53.8,
+            "td_landed": 2,
+            "td_attempted": 3,
+            "td_per_15": 2.0,
+            "sub_attempts": 0,
+            "sub_per_15": 0.0,
+            "opponent": "Dan Ige",
+            "date": "Jul. 19, 2025",
+            "result": "WIN",
+            "method": "U-DEC"
+          },
+          {
+            "duration_min": 15.0,
+            "sig_landed": 4,
+            "sig_attempted": 10,
+            "slpm": 0.27,
+            "str_acc_pct": 40.0,
+            "td_landed": 0,
+            "td_attempted": 1,
+            "td_per_15": 0.0,
+            "sub_attempts": 0,
+            "sub_per_15": 0.0,
+            "opponent": "Yair Rodriguez",
+            "date": "Apr. 12, 2025",
+            "result": "LOSS",
+            "method": "U-DEC"
+          }
+        ],
+        "intangibles": {}
+      },
+      "f2_data": {
+        "name": "Aaron Pico",
+        "profile_url": "http://www.ufcstats.com/fighter-details/5537efc6e496dd84",
+        "height": "5' 8\"",
+        "weight": "145 lbs.",
+        "reach": "70\"",
+        "stance": "Orthodox",
+        "dob": "Sep 23, 1996",
+        "team": "N/A \u2014 not listed on ufcstats.com",
+        "record": {
+          "wins": "13",
+          "losses": "5",
+          "draws": "0"
+        },
+        "win_methods": {
+          "ko": "0",
+          "sub": "0",
+          "dec": "0",
+          "note": "(last 1 fights)"
+        },
+        "striking": {
+          "slpm": "3.88",
+          "str_acc": "44%",
+          "sapm": "2.39",
+          "str_def": "50%"
+        },
+        "grappling": {
+          "td_avg": "8.96",
+          "td_acc": "66%",
+          "td_def": "0%",
+          "sub_avg": "0.0"
+        },
+        "fight_history": [
+          {
+            "result": "LOSS",
+            "opponent": "Lerone Murphy",
+            "method": "KO/TKO",
+            "round": "1",
+            "time": "3:21",
+            "date": "Aug. 16, 2025",
+            "fight_url": "http://www.ufcstats.com/fight-details/9fa6a029f7f8241c"
+          }
+        ],
+        "last_3_splits": [
+          {
+            "duration_min": 3.35,
+            "sig_landed": 13,
+            "sig_attempted": 29,
+            "slpm": 3.88,
+            "str_acc_pct": 44.8,
+            "td_landed": 2,
+            "td_attempted": 3,
+            "td_per_15": 8.96,
+            "sub_attempts": 0,
+            "sub_per_15": 0.0,
+            "opponent": "Lerone Murphy",
+            "date": "Aug. 16, 2025",
+            "result": "LOSS",
+            "method": "KO/TKO"
+          }
+        ],
+        "intangibles": {}
+      },
+      "odds_data": null,
+      "hedge_summary": null,
+      "analysis_sections": {
+        "f1_profile": "## Patricio Pitbull -- Style & Profile\n\n- **Data Tier: MEDIUM** (only 2 UFC fights in dataset; career stats are Bellator-derived approximations labeled as UFC \u2014 treat as MEDIUM confidence). Primary archetype: **Counter-Striker / Clinch-Pressure hybrid**. Tag: **FORWARD**.\n- **Striking volume has cratered in recent fights**: last-3 SLpM averages to ~0.37/min (0.47 vs Ige, 0.27 vs Rodriguez) against a career 2.68 SLpM \u2014 TRENDING DOWN (\u221286%). This is an extreme red flag: either severe opponent-quality elevation has suppressed his output, or physical decline is accelerating.\n- **Defensive vulnerability is worsening**: career SApM is 4.23 absorbed/min \u2014 already among the highest tolerable for a 145-lb fighter. With only 57% strike defense and no trend data suggesting improvement, he absorbs punishment consistently.\n- **Age cliff active**: At 38 years old in a sub-LHW division, Rule 9.7 fires the full penalty: \u221215% (capped). The market is historically slow to fully reprice aging fighters who carry name value. Pitbull is a former multi-time Bellator champion \u2014 legacy bias is real here.\n- **Wrestling remains a theoretical asset**: 88% TD defense (career) is elite and his best defensive tool. However, 1.49 TD avg/15min on offense and 33% accuracy mean he cannot force the fight to the ground on command. His wrestling is reactive, not offensive.\n- **Chin concerns emerging**: Coming off a decision loss to Rodriguez where he absorbed sustained volume, and at 38 years old, the age-related chin-decay signal (Rule 6.2, criteria #5) is active. Not formally CHIN CRACKED (no recent KO loss in data), but the age + absorption rate combination warrants a soft flag.\n- **Layoff: 266 days** \u2192 Rule 9.2 moderate ring rust penalty: **\u22126%**.",
+        "f2_profile": "## Aaron Pico -- Style & Profile\n\n- **Data Tier: LOW** (only 1 UFC fight in the dataset; career stats appear to reflect that single fight only \u2014 treat all numbers as LOW-confidence single-fight readings). Primary archetype: **Pressure Wrestler / Volume Striker hybrid**. Tag: **FORWARD**.\n- **Extreme takedown numbers are a single-fight artifact**: 8.96 TD/15min and 66% accuracy from one fight (vs. Murphy) cannot be generalized. Rule 2.4 fires: \"insufficient sample for trend.\" Pico's Bellator history shows legitimate wrestling credentials (freestyle/Greco background), but these UFC numbers are noise, not signal.\n- **Striking defense is a documented liability**: 50% strike defense (even in a single-fight sample) and 2.39 SApM absorbed (also from one fight) \u2014 but the real signal is his **KO/TKO loss to Lerone Murphy in R1 (3:21)**. Murphy is an elite striker; a R1 KO in Pico's UFC debut is a meaningful intangible flag.\n- **CHIN FLAG (soft)**: Rule 6.2 criteria: R1 KO loss in most recent fight (criteria #2 \u2014 early stoppage = chin concern, not cardio). Only one qualifying event, so not formally CHIN CRACKED, but the returning-from-KO-loss penalty fires: **Rule 9.6 \u2192 \u221210% mental discount** (R1/R2 KO in previous fight).\n- **Reach advantage: +3 inches over Pitbull** (70\" vs 67\"). At featherweight, a 3-inch reach edge is meaningful for range control \u2014 Pico can dictate distance and land jabs before Pitbull closes.\n- **Age/layoff context**: At 29 with 238-day layoff, no age cliff applies, and layoff penalty is mild (Rule 9.2: \u22123%). However, this is functionally his **UFC debut window** \u2014 one fight in, still adjusting to UFC-level competition after a KO loss. The debut-adjacent penalty applies at reduced weight: **\u22125%** for ongoing adjustment.",
+        "head2head": "## Head-to-Head: Strengths & Weaknesses\n\nThis matchup pits a 38-year-old, sharply declining Bellator legend against a 29-year-old prospect whose UFC tenure is defined by exactly one fight \u2014 a first-round knockout loss. The structural read via Section 5's matrix is: **two FORWARD fighters**, both pressure-oriented, which typically produces brawl conditions and leans toward early finishes over decisions. The pace asymmetry is the first notable edge: Pico's single-fight SLpM of 3.88 dwarfs Pitbull's last-3 output of 0.37/min. Even heavily discounting Pico's one-fight sample, Pitbull's recent striking volume is alarmingly low \u2014 he is not the offensive threat he was in his prime. The stat-trend signal on Pitbull is as severe as it gets (\u221286% SLpM from career average), and while some of that is matchup-driven (Yair Rodriguez suppresses output from anyone), it cannot be fully explained away.\n\nThe critical exchange axis in this fight is **Pitbull's chin and age vs. Pico's power and youth**. Pitbull's 88% TD defense is legitimately elite and means Pico cannot simply shoot and grind \u2014 he'll need to finish the fight on the feet or at minimum use takedown threats to set up strikes. The concern for Pitbull is that even if Pico's 50% strike defense number is a noise artifact, Pitbull's defensive stats (57% str. def., 4.23 SApM career) and the age cliff at 38 mean he is absorbing at a rate that compounds with each fight. Pico's reach advantage (+3\") allows him to establish his jab and land first \u2014 a meaningful structural edge when Pitbull is trying to close distance as a FORWARD fighter who needs to get inside to do damage. Pitbull's best path is wrestling-based: using his superior 88% TDD defensively to weather Pico's bursts and look for clinch work or counter-striking when Pico over-commits. However, Pico's 66% TD accuracy (heavily caveated \u2014 one-fight sample) suggests he may be able to stuff any offensive grappling from Pitbull.\n\n**Net intangible delta**: Pitbull: \u22126% (layoff) + \u221215% (age cliff, 38 years old in featherweight) = \u221221% total intangible burden. Pico: \u221210% (returning from R1 KO loss) + \u22123% (layoff) + \u22125% (UFC adjustment/debut-adjacent) = \u221218% total. The net delta is nearly a wash (Pitbull \u22123% worse), but Pitbull's intangible stack is more concerning because his penalties compound onto a declining baseline, while Pico's penalties are recoverable. **Flip conditions**: If Pitbull's low recent SLpM is entirely explained by elite-level opponent suppression (Rodriguez is a volume striker who smothers output), the trend may not signal physical decline \u2014 this is the single biggest uncertainty in the read. If Pico's striking defense has materially improved from the Murphy camp, the chin concern softens.",
+        "endings": "## 3-5 Most Likely Fight Endings (Ranked by Probability)\n\n**Section 8 math anchors:**\n- Pico base KO rate: insufficient UFC sample \u2014 using 1 KO finish in known Bellator fights; conservative base KO rate estimated at 35% (career across both promotions, acknowledging LOW data tier).\n- Pitbull str. def. 57% \u2192 (1 \u2212 0.57) = 0.43 multiplier.\n- Pitbull chin modifier: 1.2 (defense erosion, age 38 \u2014 Rule 8.6).\n- Pico adjusted KO prob on Pitbull: 0.35 \u00d7 0.43 \u00d7 1.2 = **~18%**\n- Pitbull base KO rate: career finishes suggest ~30% KO rate (Bellator data; LOW confidence).\n- Pico str. def. 50% \u2192 (1 \u2212 0.50) = 0.50 multiplier.\n- Pico chin modifier: 1.2 (returning from R1 KO loss, defense concern).\n- Pitbull adjusted KO prob on Pico: 0.30 \u00d7 0.50 \u00d7 1.2 = **~18%**\n- Decision probability baseline: 1 \u2212 0.18 \u2212 0.18 \u2212 sub probs (~0.05 each) \u2248 **~54%**\n\n**#1 \u2014 Aaron Pico wins by Decision (Unanimous)**\nProbability: 32%\nWhy: Pico's youth (+9 years), reach (+3\"), and superior recent volume output give him the structural edge over 3 rounds against a 38-year-old whose striking output has collapsed to near-zero in recent fights. Pitbull's 88% TDD defense limits Pico's wrestling dominance path, making a grinding decision the most likely outcome. Pico controls range with the jab, avoids Pitbull's counters, and wins on volume over 15 minutes.\n\n**#2 \u2014 Patricio Pitbull wins by Decision (Unanimous)**\nProbability: 22%\nWhy: Pitbull's elite TD defense (88%) neutralizes Pico's wrestling, and his Bellator-tested counter-striking craft could smother Pico's output if Pitbull is sharp from camp. If Pico's chin concern (returning from R1 KO) manifests as defensive hesitancy, Pitbull's clinch and counterpunching could accumulate enough rounds. Pitbull's path is narrow but real: survive early pressure, neutralize the grappling, outpoint with veteran craft.\n\n**#3 \u2014 Aaron Pico wins by KO/TKO, Round 1 or 2**\nProbability: 18%\nWhy: Pico's power and Pitbull's age-decayed chin (38 years old, consistently high SApM absorption) create a meaningful early-finish threat. If Pico pressures early and forces Pitbull into exchanges at range (where Pico's 3-inch reach advantage matters), the combination of accumulated career damage and Pitbull's reduced reflexes makes an early stoppage plausible. The adjusted KO probability formula yields ~18% \u2014 consistent with this ranking.\n\n**#4 \u2014 Patricio Pitbull wins by KO/TKO**\nProbability: 10%\nWhy: Pico's returning-from-KO chin concern and 50% strike defense (soft flag only) create a small but real path for Pitbull's counterpunching. If Pico over-commits on takedown shots or strikes and Pitbull lands a clean counter right hand in the pocket, Pico's R1 stoppage history against elite power (Murphy) raises questions about his chin durability. Adjusted formula: ~18% in isolation, but discounted to ~10% given Pitbull's dramatically reduced recent output.\n\n**#5 \u2014 Aaron Pico wins by TKO via Ground-and-Pound**\nProbability: 8%\nWhy: If Pico does manage a takedown (his 66% accuracy is a small-sample flag but his wrestling pedigree is real), Pitbull at 38 on the bottom absorbing ground strikes from a younger, heavier-handed fighter is a stoppage risk. Pitbull's submission defense has historically been his get-out-of-jail card, but ground-and-pound is a different problem. Low probability given Pitbull's 88% TDD, but not zero.\n\n*Remaining ~10% covers draws, disqualifications, and unlisted submission outcomes.*",
+        "betting": "## Betting Recommendation\n\n**1. TIER LABEL: LEAN**\n\n**2. PRIMARY PICK: Aaron Pico \u2014 Confidence: 58%**\n*(Confidence capped at 60% per Rule 13.4 \u2014 LOW data tier on Pico. Actual assessed probability: 58%.)*\n\n**3. EDGE BREAKDOWN:**\n- Pico current line: \u2212210\n- Implied probability: 210 / (210 + 100) = **67.7%**\n- Pitbull current line: +205\n- Implied probability: 100 / (205 + 100) = **32.8%**\n- Sum: 67.7 + 32.8 = 100.5% (0.5% vig \u2014 unusually tight)\n- De-vigged true Pico prob: 67.7 / 100.5 = **67.4%**\n- De-vigged true Pitbull prob: 32.8 / 100.5 = **32.6%**\n- **Assessed Pico probability: 58%**\n- **Edge: 58% \u2212 67.4% = \u22129.4%**\n\n\u26a0\ufe0f **The market is pricing Pico at 67.4% (de-vigged). My assessed probability is 58%. The market is more confident in Pico than the data supports \u2014 but this means there is NO value on Pico at \u2212210. The edge is actually on PITBULL.**\n\n**Switching recommendation per Rule 13.8:**\n- Assessed Pitbull probability: **42%**\n- Market true Pitbull prob: **32.6%**\n- Edge on Pitbull: 42% \u2212 32.6% = **+9.4%**\n\n*\"Initial read: Pico. After de-vig and matchup adjustment: Pitbull has +9.4% edge at +205. Switching recommendation to Pitbull.\"*\n\n**REVISED PRIMARY PICK: Patricio Pitbull +205 \u2014 Confidence: 42% assessed probability, but +9.4% edge**\n\n> \u26a0\ufe0f **Confidence tier check**: 42% assessed win probability is below the 55% threshold required for even a LEAN (Rule 13.2). However, the edge is +9.4% \u2014 above the 5% edge threshold for a PLAY. This is the exact scenario Rule 13.7 addresses: **\"High edge, low confidence \u2192 LEAN, not PLAY.\"**\n\n**FINAL TIER: LEAN \u2014 Patricio Pitbull +205**\n\n**4. STAKE:**\n- Decimal odds for Pitbull: (205/100) + 1 = 3.05\n- Kelly fraction: (0.094 \u00d7 3.05 \u2212 (1 \u2212 0.42)) / (3.05 \u2212 1) = (0.287 \u2212 0.58) / 2.05 = \u22120.293 / 2.05 = **\u22120.143**\n- Kelly is **negative** \u2192 mathematically \u2212EV at this stake size given assessed probability\n- Quarter Kelly: max(0, \u22120.143 \u00d7 0.25) = **0 units**\n\n**RECOMMENDATION: NO BET \u2014 mathematically \u2212EV per Kelly.**\n\nThe +9.4% edge exists because the market has overpriced Pico, but our assessed 42% on Pitbull is still below 50% \u2014 meaning Kelly correctly identifies this as a losing proposition at any stake. The \"edge\" here is a market inefficiency we cannot profitably exploit at the current line unless our true assessed probability is \u2265 ~50% for Pitbull.\n\n**Downgraded to: NO BET**\n\n**5. TARGET LINE:**\nFor Pitbull to be a +3% edge play with 42% assessed probability, we need:\n- De-vigged market prob on Pitbull \u2264 39%\n- That requires Pitbull at approximately **+155 or longer**\n- Current line is +205 \u2014 the line is *already generous*, but our probability assessment is the limiting factor, not the line. The problem is the read, not the price.\n- If assessed probability is revised upward to **50%**, the target line becomes +150 or longer \u2014 and +205 becomes a strong play. This is the key flip condition.\n\n**Target line for a play: Only bet Pitbull if you assess him at \u2265 50% win probability.**\n\n**6. DATA TIERS:**\n- Patricio Pitbull: **MEDIUM** (2-fight UFC sample, career stats Bellator-derived)\n- Aaron Pico: **LOW** (1 UFC fight; all career stats reflect single fight)\n- **Active confidence caps**: LOW tier on Pico \u2192 confidence capped at 60% (Rule 13.4). Applied.\n\n**7. MARKET READ:**\n- **Open \u2192 Current**: Pitbull +180 \u2192 +205 (lengthened by 25 cents / ~3.5 implied pp). Pico \u2212235 \u2192 \u2212210 (shortened by 25 cents / ~3.5 implied pp).\n- **Movement direction**: Line has moved *toward Pitbull* (Pitbull becoming a longer dog, Pico shortening). This means sharp/book money has moved *against Pitbull* \u2014 the books are more confident in Pico now than at open.\n- **RLM status**: NO RLM confirmed. Public and sharp money appear aligned on Pico.\n- Movement magnitude is moderate (25-cent swing over the betting cycle). No steam move pattern \u2014 gradual adjustment.\n- **Market read agrees with Pico** \u2014 no market-based reason to fade Pico here. The line movement is a \u22125% confidence penalty on any Pitbull position per Rule 10.11.\n\n**8. HEDGE VERDICT:**\n- Best Pitbull line: +205 \u2192 implied 32.8%\n- Best Pico line: \u2212210 \u2192 implied 67.7%\n- Combined implied: 100.5%\n- **NO ARB** \u2014 combined > 100%. No hedge structure available. Take any value pick on the best available line.\n\n**9. PROPS WORTH CONSIDERING:**\n*Market data on props not provided \u2014 cannot de-vig prop lines. However, analytical note:*\n- **Fight goes to decision**: Decision probability from endings analysis \u2248 54%. If a \"fight goes to decision YES\" prop is available at implied probability below ~47% (de-vigged), that represents value given our model's 54% decision expectation. Worth checking at book.\n- **Pico by KO/TKO**: Adjusted probability ~18% from Section 8 math. If the KO prop (Pico to finish by KO) is priced at implied prob below ~14% de-vigged, there is marginal value.\n- No prop value confirmed without actual prop lines.\n\n**10. FADE ALERT:**\n**The public and sharp money both appear to be on Pico** \u2014 line has moved from Pitbull-friendly to Pico-friendly since open. Our stat-based read suggests the market has *overpriced* Pico (67.4% de-vigged vs. our 58% assessed), but the Kelly math prevents a profitable Pitbull bet at our assessed 42% win probability. The correct response is **PASS** \u2014 acknowledge the edge exists in concept, but the probability is too low to stake profitably.\n\n> *\"This fight has readable line value on Pitbull's side (market overpricing Pico), but our assessed win probability for Pitbull (42%) is below the threshold where Kelly sizing becomes positive. No bet.\"*\n\n**FLIP CONDITIONS (Rule 15.1):**\n1. If Pitbull's recent low SLpM is verified as opponent-suppression artifact only (not physical decline), revise Pitbull assessed prob to ~50% \u2192 Pitbull +205 becomes a STRONG PLAY at 2.5 units.\n2. If Pico's chin concern is confirmed (camp sources, Murphy fight analysis showing structural vulnerability), revise Pitbull prob to ~48% \u2192 still marginal but closer to viable.\n3. If line moves to Pitbull +230 or longer without new information, re-run Kelly \u2014 the price may make the bet viable even at 42% assessed probability. (Kelly turns positive at +240 with 42% assessed prob.)"
+      },
+      "raw_analysis": "<!--F1_PROFILE-->\n## Patricio Pitbull -- Style & Profile\n\n- **Data Tier: MEDIUM** (only 2 UFC fights in dataset; career stats are Bellator-derived approximations labeled as UFC \u2014 treat as MEDIUM confidence). Primary archetype: **Counter-Striker / Clinch-Pressure hybrid**. Tag: **FORWARD**.\n- **Striking volume has cratered in recent fights**: last-3 SLpM averages to ~0.37/min (0.47 vs Ige, 0.27 vs Rodriguez) against a career 2.68 SLpM \u2014 TRENDING DOWN (\u221286%). This is an extreme red flag: either severe opponent-quality elevation has suppressed his output, or physical decline is accelerating.\n- **Defensive vulnerability is worsening**: career SApM is 4.23 absorbed/min \u2014 already among the highest tolerable for a 145-lb fighter. With only 57% strike defense and no trend data suggesting improvement, he absorbs punishment consistently.\n- **Age cliff active**: At 38 years old in a sub-LHW division, Rule 9.7 fires the full penalty: \u221215% (capped). The market is historically slow to fully reprice aging fighters who carry name value. Pitbull is a former multi-time Bellator champion \u2014 legacy bias is real here.\n- **Wrestling remains a theoretical asset**: 88% TD defense (career) is elite and his best defensive tool. However, 1.49 TD avg/15min on offense and 33% accuracy mean he cannot force the fight to the ground on command. His wrestling is reactive, not offensive.\n- **Chin concerns emerging**: Coming off a decision loss to Rodriguez where he absorbed sustained volume, and at 38 years old, the age-related chin-decay signal (Rule 6.2, criteria #5) is active. Not formally CHIN CRACKED (no recent KO loss in data), but the age + absorption rate combination warrants a soft flag.\n- **Layoff: 266 days** \u2192 Rule 9.2 moderate ring rust penalty: **\u22126%**.\n\n<!--END-->\n\n<!--F2_PROFILE-->\n## Aaron Pico -- Style & Profile\n\n- **Data Tier: LOW** (only 1 UFC fight in the dataset; career stats appear to reflect that single fight only \u2014 treat all numbers as LOW-confidence single-fight readings). Primary archetype: **Pressure Wrestler / Volume Striker hybrid**. Tag: **FORWARD**.\n- **Extreme takedown numbers are a single-fight artifact**: 8.96 TD/15min and 66% accuracy from one fight (vs. Murphy) cannot be generalized. Rule 2.4 fires: \"insufficient sample for trend.\" Pico's Bellator history shows legitimate wrestling credentials (freestyle/Greco background), but these UFC numbers are noise, not signal.\n- **Striking defense is a documented liability**: 50% strike defense (even in a single-fight sample) and 2.39 SApM absorbed (also from one fight) \u2014 but the real signal is his **KO/TKO loss to Lerone Murphy in R1 (3:21)**. Murphy is an elite striker; a R1 KO in Pico's UFC debut is a meaningful intangible flag.\n- **CHIN FLAG (soft)**: Rule 6.2 criteria: R1 KO loss in most recent fight (criteria #2 \u2014 early stoppage = chin concern, not cardio). Only one qualifying event, so not formally CHIN CRACKED, but the returning-from-KO-loss penalty fires: **Rule 9.6 \u2192 \u221210% mental discount** (R1/R2 KO in previous fight).\n- **Reach advantage: +3 inches over Pitbull** (70\" vs 67\"). At featherweight, a 3-inch reach edge is meaningful for range control \u2014 Pico can dictate distance and land jabs before Pitbull closes.\n- **Age/layoff context**: At 29 with 238-day layoff, no age cliff applies, and layoff penalty is mild (Rule 9.2: \u22123%). However, this is functionally his **UFC debut window** \u2014 one fight in, still adjusting to UFC-level competition after a KO loss. The debut-adjacent penalty applies at reduced weight: **\u22125%** for ongoing adjustment.\n\n<!--END-->\n\n<!--HEAD2HEAD-->\n## Head-to-Head: Strengths & Weaknesses\n\nThis matchup pits a 38-year-old, sharply declining Bellator legend against a 29-year-old prospect whose UFC tenure is defined by exactly one fight \u2014 a first-round knockout loss. The structural read via Section 5's matrix is: **two FORWARD fighters**, both pressure-oriented, which typically produces brawl conditions and leans toward early finishes over decisions. The pace asymmetry is the first notable edge: Pico's single-fight SLpM of 3.88 dwarfs Pitbull's last-3 output of 0.37/min. Even heavily discounting Pico's one-fight sample, Pitbull's recent striking volume is alarmingly low \u2014 he is not the offensive threat he was in his prime. The stat-trend signal on Pitbull is as severe as it gets (\u221286% SLpM from career average), and while some of that is matchup-driven (Yair Rodriguez suppresses output from anyone), it cannot be fully explained away.\n\nThe critical exchange axis in this fight is **Pitbull's chin and age vs. Pico's power and youth**. Pitbull's 88% TD defense is legitimately elite and means Pico cannot simply shoot and grind \u2014 he'll need to finish the fight on the feet or at minimum use takedown threats to set up strikes. The concern for Pitbull is that even if Pico's 50% strike defense number is a noise artifact, Pitbull's defensive stats (57% str. def., 4.23 SApM career) and the age cliff at 38 mean he is absorbing at a rate that compounds with each fight. Pico's reach advantage (+3\") allows him to establish his jab and land first \u2014 a meaningful structural edge when Pitbull is trying to close distance as a FORWARD fighter who needs to get inside to do damage. Pitbull's best path is wrestling-based: using his superior 88% TDD defensively to weather Pico's bursts and look for clinch work or counter-striking when Pico over-commits. However, Pico's 66% TD accuracy (heavily caveated \u2014 one-fight sample) suggests he may be able to stuff any offensive grappling from Pitbull.\n\n**Net intangible delta**: Pitbull: \u22126% (layoff) + \u221215% (age cliff, 38 years old in featherweight) = \u221221% total intangible burden. Pico: \u221210% (returning from R1 KO loss) + \u22123% (layoff) + \u22125% (UFC adjustment/debut-adjacent) = \u221218% total. The net delta is nearly a wash (Pitbull \u22123% worse), but Pitbull's intangible stack is more concerning because his penalties compound onto a declining baseline, while Pico's penalties are recoverable. **Flip conditions**: If Pitbull's low recent SLpM is entirely explained by elite-level opponent suppression (Rodriguez is a volume striker who smothers output), the trend may not signal physical decline \u2014 this is the single biggest uncertainty in the read. If Pico's striking defense has materially improved from the Murphy camp, the chin concern softens.\n\n<!--END-->\n\n<!--ENDINGS-->\n## 3-5 Most Likely Fight Endings (Ranked by Probability)\n\n**Section 8 math anchors:**\n- Pico base KO rate: insufficient UFC sample \u2014 using 1 KO finish in known Bellator fights; conservative base KO rate estimated at 35% (career across both promotions, acknowledging LOW data tier).\n- Pitbull str. def. 57% \u2192 (1 \u2212 0.57) = 0.43 multiplier.\n- Pitbull chin modifier: 1.2 (defense erosion, age 38 \u2014 Rule 8.6).\n- Pico adjusted KO prob on Pitbull: 0.35 \u00d7 0.43 \u00d7 1.2 = **~18%**\n- Pitbull base KO rate: career finishes suggest ~30% KO rate (Bellator data; LOW confidence).\n- Pico str. def. 50% \u2192 (1 \u2212 0.50) = 0.50 multiplier.\n- Pico chin modifier: 1.2 (returning from R1 KO loss, defense concern).\n- Pitbull adjusted KO prob on Pico: 0.30 \u00d7 0.50 \u00d7 1.2 = **~18%**\n- Decision probability baseline: 1 \u2212 0.18 \u2212 0.18 \u2212 sub probs (~0.05 each) \u2248 **~54%**\n\n**#1 \u2014 Aaron Pico wins by Decision (Unanimous)**\nProbability: 32%\nWhy: Pico's youth (+9 years), reach (+3\"), and superior recent volume output give him the structural edge over 3 rounds against a 38-year-old whose striking output has collapsed to near-zero in recent fights. Pitbull's 88% TDD defense limits Pico's wrestling dominance path, making a grinding decision the most likely outcome. Pico controls range with the jab, avoids Pitbull's counters, and wins on volume over 15 minutes.\n\n**#2 \u2014 Patricio Pitbull wins by Decision (Unanimous)**\nProbability: 22%\nWhy: Pitbull's elite TD defense (88%) neutralizes Pico's wrestling, and his Bellator-tested counter-striking craft could smother Pico's output if Pitbull is sharp from camp. If Pico's chin concern (returning from R1 KO) manifests as defensive hesitancy, Pitbull's clinch and counterpunching could accumulate enough rounds. Pitbull's path is narrow but real: survive early pressure, neutralize the grappling, outpoint with veteran craft.\n\n**#3 \u2014 Aaron Pico wins by KO/TKO, Round 1 or 2**\nProbability: 18%\nWhy: Pico's power and Pitbull's age-decayed chin (38 years old, consistently high SApM absorption) create a meaningful early-finish threat. If Pico pressures early and forces Pitbull into exchanges at range (where Pico's 3-inch reach advantage matters), the combination of accumulated career damage and Pitbull's reduced reflexes makes an early stoppage plausible. The adjusted KO probability formula yields ~18% \u2014 consistent with this ranking.\n\n**#4 \u2014 Patricio Pitbull wins by KO/TKO**\nProbability: 10%\nWhy: Pico's returning-from-KO chin concern and 50% strike defense (soft flag only) create a small but real path for Pitbull's counterpunching. If Pico over-commits on takedown shots or strikes and Pitbull lands a clean counter right hand in the pocket, Pico's R1 stoppage history against elite power (Murphy) raises questions about his chin durability. Adjusted formula: ~18% in isolation, but discounted to ~10% given Pitbull's dramatically reduced recent output.\n\n**#5 \u2014 Aaron Pico wins by TKO via Ground-and-Pound**\nProbability: 8%\nWhy: If Pico does manage a takedown (his 66% accuracy is a small-sample flag but his wrestling pedigree is real), Pitbull at 38 on the bottom absorbing ground strikes from a younger, heavier-handed fighter is a stoppage risk. Pitbull's submission defense has historically been his get-out-of-jail card, but ground-and-pound is a different problem. Low probability given Pitbull's 88% TDD, but not zero.\n\n*Remaining ~10% covers draws, disqualifications, and unlisted submission outcomes.*\n\n<!--END-->\n\n<!--BETTING-->\n## Betting Recommendation\n\n**1. TIER LABEL: LEAN**\n\n**2. PRIMARY PICK: Aaron Pico \u2014 Confidence: 58%**\n*(Confidence capped at 60% per Rule 13.4 \u2014 LOW data tier on Pico. Actual assessed probability: 58%.)*\n\n**3. EDGE BREAKDOWN:**\n- Pico current line: \u2212210\n- Implied probability: 210 / (210 + 100) = **67.7%**\n- Pitbull current line: +205\n- Implied probability: 100 / (205 + 100) = **32.8%**\n- Sum: 67.7 + 32.8 = 100.5% (0.5% vig \u2014 unusually tight)\n- De-vigged true Pico prob: 67.7 / 100.5 = **67.4%**\n- De-vigged true Pitbull prob: 32.8 / 100.5 = **32.6%**\n- **Assessed Pico probability: 58%**\n- **Edge: 58% \u2212 67.4% = \u22129.4%**\n\n\u26a0\ufe0f **The market is pricing Pico at 67.4% (de-vigged). My assessed probability is 58%. The market is more confident in Pico than the data supports \u2014 but this means there is NO value on Pico at \u2212210. The edge is actually on PITBULL.**\n\n**Switching recommendation per Rule 13.8:**\n- Assessed Pitbull probability: **42%**\n- Market true Pitbull prob: **32.6%**\n- Edge on Pitbull: 42% \u2212 32.6% = **+9.4%**\n\n*\"Initial read: Pico. After de-vig and matchup adjustment: Pitbull has +9.4% edge at +205. Switching recommendation to Pitbull.\"*\n\n**REVISED PRIMARY PICK: Patricio Pitbull +205 \u2014 Confidence: 42% assessed probability, but +9.4% edge**\n\n> \u26a0\ufe0f **Confidence tier check**: 42% assessed win probability is below the 55% threshold required for even a LEAN (Rule 13.2). However, the edge is +9.4% \u2014 above the 5% edge threshold for a PLAY. This is the exact scenario Rule 13.7 addresses: **\"High edge, low confidence \u2192 LEAN, not PLAY.\"**\n\n**FINAL TIER: LEAN \u2014 Patricio Pitbull +205**\n\n**4. STAKE:**\n- Decimal odds for Pitbull: (205/100) + 1 = 3.05\n- Kelly fraction: (0.094 \u00d7 3.05 \u2212 (1 \u2212 0.42)) / (3.05 \u2212 1) = (0.287 \u2212 0.58) / 2.05 = \u22120.293 / 2.05 = **\u22120.143**\n- Kelly is **negative** \u2192 mathematically \u2212EV at this stake size given assessed probability\n- Quarter Kelly: max(0, \u22120.143 \u00d7 0.25) = **0 units**\n\n**RECOMMENDATION: NO BET \u2014 mathematically \u2212EV per Kelly.**\n\nThe +9.4% edge exists because the market has overpriced Pico, but our assessed 42% on Pitbull is still below 50% \u2014 meaning Kelly correctly identifies this as a losing proposition at any stake. The \"edge\" here is a market inefficiency we cannot profitably exploit at the current line unless our true assessed probability is \u2265 ~50% for Pitbull.\n\n**Downgraded to: NO BET**\n\n**5. TARGET LINE:**\nFor Pitbull to be a +3% edge play with 42% assessed probability, we need:\n- De-vigged market prob on Pitbull \u2264 39%\n- That requires Pitbull at approximately **+155 or longer**\n- Current line is +205 \u2014 the line is *already generous*, but our probability assessment is the limiting factor, not the line. The problem is the read, not the price.\n- If assessed probability is revised upward to **50%**, the target line becomes +150 or longer \u2014 and +205 becomes a strong play. This is the key flip condition.\n\n**Target line for a play: Only bet Pitbull if you assess him at \u2265 50% win probability.**\n\n**6. DATA TIERS:**\n- Patricio Pitbull: **MEDIUM** (2-fight UFC sample, career stats Bellator-derived)\n- Aaron Pico: **LOW** (1 UFC fight; all career stats reflect single fight)\n- **Active confidence caps**: LOW tier on Pico \u2192 confidence capped at 60% (Rule 13.4). Applied.\n\n**7. MARKET READ:**\n- **Open \u2192 Current**: Pitbull +180 \u2192 +205 (lengthened by 25 cents / ~3.5 implied pp). Pico \u2212235 \u2192 \u2212210 (shortened by 25 cents / ~3.5 implied pp).\n- **Movement direction**: Line has moved *toward Pitbull* (Pitbull becoming a longer dog, Pico shortening). This means sharp/book money has moved *against Pitbull* \u2014 the books are more confident in Pico now than at open.\n- **RLM status**: NO RLM confirmed. Public and sharp money appear aligned on Pico.\n- Movement magnitude is moderate (25-cent swing over the betting cycle). No steam move pattern \u2014 gradual adjustment.\n- **Market read agrees with Pico** \u2014 no market-based reason to fade Pico here. The line movement is a \u22125% confidence penalty on any Pitbull position per Rule 10.11.\n\n**8. HEDGE VERDICT:**\n- Best Pitbull line: +205 \u2192 implied 32.8%\n- Best Pico line: \u2212210 \u2192 implied 67.7%\n- Combined implied: 100.5%\n- **NO ARB** \u2014 combined > 100%. No hedge structure available. Take any value pick on the best available line.\n\n**9. PROPS WORTH CONSIDERING:**\n*Market data on props not provided \u2014 cannot de-vig prop lines. However, analytical note:*\n- **Fight goes to decision**: Decision probability from endings analysis \u2248 54%. If a \"fight goes to decision YES\" prop is available at implied probability below ~47% (de-vigged), that represents value given our model's 54% decision expectation. Worth checking at book.\n- **Pico by KO/TKO**: Adjusted probability ~18% from Section 8 math. If the KO prop (Pico to finish by KO) is priced at implied prob below ~14% de-vigged, there is marginal value.\n- No prop value confirmed without actual prop lines.\n\n**10. FADE ALERT:**\n**The public and sharp money both appear to be on Pico** \u2014 line has moved from Pitbull-friendly to Pico-friendly since open. Our stat-based read suggests the market has *overpriced* Pico (67.4% de-vigged vs. our 58% assessed), but the Kelly math prevents a profitable Pitbull bet at our assessed 42% win probability. The correct response is **PASS** \u2014 acknowledge the edge exists in concept, but the probability is too low to stake profitably.\n\n> *\"This fight has readable line value on Pitbull's side (market overpricing Pico), but our assessed win probability for Pitbull (42%) is below the threshold where Kelly sizing becomes positive. No bet.\"*\n\n**FLIP CONDITIONS (Rule 15.1):**\n1. If Pitbull's recent low SLpM is verified as opponent-suppression artifact only (not physical decline), revise Pitbull assessed prob to ~50% \u2192 Pitbull +205 becomes a STRONG PLAY at 2.5 units.\n2. If Pico's chin concern is confirmed (camp sources, Murphy fight analysis showing structural vulnerability), revise Pitbull prob to ~48% \u2192 still marginal but closer to viable.\n3. If line moves to Pitbull +230 or longer without new information, re-run Kelly \u2014 the price may make the bet viable even at 42% assessed probability. (Kelly turns positive at +240 with 42% assessed prob.)\n\n<!--END-->",
+      "total_stake": 100.0,
+      "matchup_context": {
+        "venue": "Unknown",
+        "altitude_ft": null,
+        "scheduled_rounds": "Unknown",
+        "is_main_event": false,
+        "is_title_fight": false,
+        "line_movement": {
+          "Patricio Pitbull": {
+            "opening": 180,
+            "current": 205,
+            "direction": "lengthened"
+          },
+          "Aaron Pico": {
+            "opening": 235,
+            "current": -210,
+            "direction": "shortened"
+          },
+          "reverse_line_movement": false,
+          "public_pct": {}
+        }
+      },
+      "generated_at": "2026-04-11T16:04:41.211772+00:00"
     }
   }
 }
